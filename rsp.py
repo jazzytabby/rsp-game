@@ -26,10 +26,12 @@ while user_points < 3 and computer_points < 3:
         user_points += 1
         print(f"User: {user_points}\nComputer: {computer_points}")
 
+    # Computer wins
     elif calc == 2:
         computer_points += 1
         print(f"User: {user_points}\nComputer: {computer_points}")
 
+    # Draw
     else:
         print("It's a tie!")
         print(f"User: {user_points}\nComputer: {computer_points}")
