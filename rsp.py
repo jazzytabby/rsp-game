@@ -1,7 +1,7 @@
 from random import choice
 
 user_points = 1
-computer_points = 0
+computer_points = 2
 moves = ["rock", "scissors", "paper"]
 move_values = {
     "rock": 1,
