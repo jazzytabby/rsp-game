@@ -1,6 +1,6 @@
 from random import choice
 
-user_points = 0
+user_points = 1
 computer_points = 0
 moves = ["rock", "scissors", "paper"]
 move_values = {
@@ -31,7 +31,7 @@ while user_points < 3 and computer_points < 3:
         computer_points += 1
         print(f"User: {user_points}\nComputer: {computer_points}")
 
-    # Draw
+    # Tie
     else:
         print("It's a tie!")
         print(f"User: {user_points}\nComputer: {computer_points}")
