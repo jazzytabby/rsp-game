@@ -10,11 +10,11 @@ move_values = {
 }
 
 while user_points < 3 and computer_points < 3:
-    user_move = input("Make your move: ").lower()
+    user_move = input("Make your move: ").lower().strip()
 
     while user_move not in moves:
         print("Invalid move. Valid moves are 'rock', 'scissors', 'paper'")
-        user_move = input("Make your move: ").lower()
+        user_move = input("Make your move: ").lower().strip()
 
     computer_move = choice(moves)
     user_value = move_values[user_move]
